@@ -1,5 +1,5 @@
 {
-  "name": "@lightningsagar/codehawk",
+  "name": "lib-judge",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {

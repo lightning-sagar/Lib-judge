@@ -81,22 +81,6 @@ Currently deployed on [Render](https://render.com) with **3 active workers**.
 
 ---
 
-## 🙌 Contributing
-
-We welcome contributions and feedback!
-
-* 🐞 Found a bug? [Open an issue](https://github.com/lightning-sagar/Lib-judge/issues)
-* 🚀 Want to improve the library? Submit a pull request.
-
----
-
-## 📬 Contact
-
-For support or questions, feel free to reach out:
-
-**Email:** [lightningsagar0@gmail.com](mailto:lightningsagar0@gmail.com)
-
----
 
 Built with ❤️ to support developers, students, and educators in building better code evaluation platforms.
 
