@@ -90,14 +90,6 @@ We welcome contributions and feedback!
 
 ---
 
-## 📬 Contact
-
-For support or questions, feel free to reach out:
-
-**Email:** [lightningsagar0@gmail.com](mailto:lightningsagar0@gmail.com)
-
----
-
 Built with ❤️ to support developers, students, and educators in building better code evaluation platforms.
 
 ---
