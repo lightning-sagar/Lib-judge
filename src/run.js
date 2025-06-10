@@ -18,8 +18,8 @@ const redis = await connectredis();
  * @param {string} timeout - Max timeout in seconds
  * @param {string} sizeout - Max output size in KB
  */
-export async function judge({ codePath, ques_name, input, output, timeout, sizeout }) {
-  if (!codePath || !ques_name || !timeout || !sizeout)
+export async function judge({ codePath,language, ques_name, input, output, timeout, sizeout }) {
+  if (!codePath || !ques_name || !timeout || !sizeout ||!language)
     throw new Error("codePath and ques_name are required");
 
   let code;
@@ -53,6 +53,7 @@ export async function judge({ codePath, ques_name, input, output, timeout, sizeo
 
     const redisPayload = {
       code,
+      language,
       ...Object.fromEntries(
         Object.entries(workerTaskMap).map(([k, v]) => [k, JSON.stringify(v)])
       )
